@@ -5,6 +5,12 @@ import path from 'path';
 const app = express();
 const port = 3000;
 
+const imgDir = path.join(__dirname, '..', 'img');
+
+if (!fs.existsSync(imgDir)) {
+    fs.mkdirSync(imgDir, { recursive: true });
+}
+
 app.use(express.static(path.join(__dirname, '..')));
 app.use(express.json({ limit: '10mb' }));
 
