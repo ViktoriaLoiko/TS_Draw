@@ -13,6 +13,7 @@
 
 🖼️ Screenshot/Скриншот
 
+<img width="1840" height="1590" alt="Screenshot 2025-12-16 104217" src="https://github.com/user-attachments/assets/82974141-8adb-4ecd-b447-f63923e350d6" />
 
 ---
 
